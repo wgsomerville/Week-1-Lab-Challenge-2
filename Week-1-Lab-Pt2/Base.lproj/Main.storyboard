@@ -218,6 +218,15 @@
                                     <segue destination="9N1-Us-qZ0" kind="push" id="mqz-vT-kmJ"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="4p8-rd-Flh">
+                                <rect key="frame" x="10" y="31" width="35" height="39"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <connections>
+                                    <action selector="cancelButtonPressed:" destination="4sa-ho-GuG" eventType="touchUpInside" id="ShE-N0-eQh"/>
+                                    <segue destination="fs9-bo-pdA" kind="modal" animates="NO" id="COy-Re-WSS"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -225,12 +234,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KY0-C6-KNl" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1774" y="1107"/>
+            <point key="canvasLocation" x="1774" y="1122"/>
         </scene>
-        <!--View Controller-->
+        <!--Hamburger Detail View Controller-->
         <scene sceneID="3xF-M7-xUi">
             <objects>
-                <viewController id="9N1-Us-qZ0" sceneMemberID="viewController">
+                <viewController id="9N1-Us-qZ0" customClass="HamburgerDetailViewController" customModule="Week_1_Lab_Pt2" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="6s8-Oh-dqj">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -239,6 +248,15 @@
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <autoresizingMask key="autoresizingMask"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="pho-H9-Pm6">
+                                <rect key="frame" x="279" y="31" width="31" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <connections>
+                                    <action selector="cancelButtonPressed:" destination="4sa-ho-GuG" eventType="touchUpInside" id="YTL-Vr-rOz"/>
+                                    <action selector="closeButtonPressed:" destination="9N1-Us-qZ0" eventType="touchUpInside" id="bHI-5P-OfR"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -336,4 +354,7 @@
         <image name="welcome3" width="320" height="568"/>
         <image name="welcome4" width="320" height="568"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="zaE-sG-74F"/>
+    </inferredMetricsTieBreakers>
 </document>

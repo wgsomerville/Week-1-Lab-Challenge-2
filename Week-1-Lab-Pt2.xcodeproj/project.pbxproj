@@ -15,6 +15,7 @@
 		A43BBAED1C792DAC002701DB /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43BBAEC1C792DAC002701DB /* SettingsViewController.swift */; };
 		A43BBAEF1C792E5B002701DB /* SearchActiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43BBAEE1C792E5B002701DB /* SearchActiveViewController.swift */; };
 		A43BBAF11C792F0D002701DB /* SearchAutoCompleteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43BBAF01C792F0D002701DB /* SearchAutoCompleteViewController.swift */; };
+		A43BBAF31C793203002701DB /* HamburgerDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43BBAF21C793203002701DB /* HamburgerDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		A43BBAEC1C792DAC002701DB /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		A43BBAEE1C792E5B002701DB /* SearchActiveViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchActiveViewController.swift; sourceTree = "<group>"; };
 		A43BBAF01C792F0D002701DB /* SearchAutoCompleteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchAutoCompleteViewController.swift; sourceTree = "<group>"; };
+		A43BBAF21C793203002701DB /* HamburgerDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HamburgerDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				A43BBADA1C790810002701DB /* AppDelegate.swift */,
 				A43BBAEE1C792E5B002701DB /* SearchActiveViewController.swift */,
 				A43BBAF01C792F0D002701DB /* SearchAutoCompleteViewController.swift */,
+				A43BBAF21C793203002701DB /* HamburgerDetailViewController.swift */,
 				A43BBADC1C790810002701DB /* ViewController.swift */,
 				A43BBADE1C790810002701DB /* Main.storyboard */,
 				A43BBAE11C790810002701DB /* Assets.xcassets */,
@@ -147,6 +150,7 @@
 				A43BBAEF1C792E5B002701DB /* SearchActiveViewController.swift in Sources */,
 				A43BBADD1C790810002701DB /* ViewController.swift in Sources */,
 				A43BBADB1C790810002701DB /* AppDelegate.swift in Sources */,
+				A43BBAF31C793203002701DB /* HamburgerDetailViewController.swift in Sources */,
 				A43BBAED1C792DAC002701DB /* SettingsViewController.swift in Sources */,
 				A43BBAF11C792F0D002701DB /* SearchAutoCompleteViewController.swift in Sources */,
 			);

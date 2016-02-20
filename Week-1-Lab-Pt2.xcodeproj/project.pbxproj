@@ -12,6 +12,9 @@
 		A43BBAE01C790810002701DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A43BBADE1C790810002701DB /* Main.storyboard */; };
 		A43BBAE21C790810002701DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A43BBAE11C790810002701DB /* Assets.xcassets */; };
 		A43BBAE51C790810002701DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A43BBAE31C790810002701DB /* LaunchScreen.storyboard */; };
+		A43BBAED1C792DAC002701DB /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43BBAEC1C792DAC002701DB /* SettingsViewController.swift */; };
+		A43BBAEF1C792E5B002701DB /* SearchActiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43BBAEE1C792E5B002701DB /* SearchActiveViewController.swift */; };
+		A43BBAF11C792F0D002701DB /* SearchAutoCompleteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43BBAF01C792F0D002701DB /* SearchAutoCompleteViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		A43BBAE11C790810002701DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A43BBAE41C790810002701DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A43BBAE61C790810002701DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A43BBAEC1C792DAC002701DB /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		A43BBAEE1C792E5B002701DB /* SearchActiveViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchActiveViewController.swift; sourceTree = "<group>"; };
+		A43BBAF01C792F0D002701DB /* SearchAutoCompleteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchAutoCompleteViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +61,14 @@
 			isa = PBXGroup;
 			children = (
 				A43BBADA1C790810002701DB /* AppDelegate.swift */,
+				A43BBAEE1C792E5B002701DB /* SearchActiveViewController.swift */,
+				A43BBAF01C792F0D002701DB /* SearchAutoCompleteViewController.swift */,
 				A43BBADC1C790810002701DB /* ViewController.swift */,
 				A43BBADE1C790810002701DB /* Main.storyboard */,
 				A43BBAE11C790810002701DB /* Assets.xcassets */,
 				A43BBAE31C790810002701DB /* LaunchScreen.storyboard */,
 				A43BBAE61C790810002701DB /* Info.plist */,
+				A43BBAEC1C792DAC002701DB /* SettingsViewController.swift */,
 			);
 			path = "Week-1-Lab-Pt2";
 			sourceTree = "<group>";
@@ -135,8 +144,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A43BBAEF1C792E5B002701DB /* SearchActiveViewController.swift in Sources */,
 				A43BBADD1C790810002701DB /* ViewController.swift in Sources */,
 				A43BBADB1C790810002701DB /* AppDelegate.swift in Sources */,
+				A43BBAED1C792DAC002701DB /* SettingsViewController.swift in Sources */,
+				A43BBAF11C792F0D002701DB /* SearchAutoCompleteViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +296,7 @@
 				A43BBAEB1C790810002701DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
